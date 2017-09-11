@@ -40,7 +40,7 @@
 								</option>
 								<option id="com.ti.ccstudio.buildDefinitions.MSP432_16.9.compilerID.INCLUDE_PATH.2010654925" name="Add dir to #include search path (--include_path, -I)" superClass="com.ti.ccstudio.buildDefinitions.MSP432_16.9.compilerID.INCLUDE_PATH" valueType="includePath">
 									<listOptionValue builtIn="false" value="&quot;${CCS_BASE_ROOT}/arm/include&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;C:\ti\simplelink_msp432_sdk_1_30_00_40\source&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\ti\simplelink_msp432_sdk_1_40_01_00\source&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${CCS_BASE_ROOT}/arm/include/CMSIS&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${PROJECT_ROOT}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${CG_TOOL_ROOT}/include&quot;"/>
@@ -73,7 +73,7 @@
 								</option>
 								<option id="com.ti.ccstudio.buildDefinitions.MSP432_16.9.linkerID.LIBRARY.1001195492" name="Include library file or command file as input (--library, -l)" superClass="com.ti.ccstudio.buildDefinitions.MSP432_16.9.linkerID.LIBRARY" useByScannerDiscovery="false" valueType="libs">
 									<listOptionValue builtIn="false" value="&quot;libc.a&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;C:\ti\simplelink_msp432_sdk_1_30_00_40\source\ti\devices\msp432p4xx\driverlib\ccs\msp432p4xx_driverlib.lib&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\ti\simplelink_msp432_sdk_1_40_01_00\source\ti\devices\msp432p4xx\driverlib\ccs\msp432p4xx_driverlib.lib&quot;"/>
 								</option>
 								<inputType id="com.ti.ccstudio.buildDefinitions.MSP432_16.9.exeLinker.inputType__CMD_SRCS.294067918" name="Linker Command Files" superClass="com.ti.ccstudio.buildDefinitions.MSP432_16.9.exeLinker.inputType__CMD_SRCS"/>
 								<inputType id="com.ti.ccstudio.buildDefinitions.MSP432_16.9.exeLinker.inputType__CMD2_SRCS.681764510" name="Linker Command Files" superClass="com.ti.ccstudio.buildDefinitions.MSP432_16.9.exeLinker.inputType__CMD2_SRCS"/>
