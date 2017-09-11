@@ -72,7 +72,7 @@ void main(void)
         MSPgets(EUSCI_A2_BASE, Buffer, BUFFER_SIZE);
 
         /*Send data to serial terminal*/
-        MSPrintf(EUSCI_A0_BASE, "Data received from HC-05: %s\r\n", BUFFER_SIZE);
+        MSPrintf(EUSCI_A0_BASE, "Data received from HC-05: %s\r\n", Buffer);
     }
 	
 }
