@@ -7,7 +7,7 @@ We all have used this! The venerable [HC-05](https://www.amazon.com/KEDSUM-Ardui
 ***
 In order to use the project you will need to have the [MSP432 SimpleLink SDK](http://www.ti.com/tool/SIMPLELINK-MSP432-SDK) library installed. To install it follow the link and select the SIMPLELINK-MSP432-SDK option, after the installation is complete import this project into Code Composer's Workspace. 
 
-The SD Card project is divided into two folders:
+The HC-05 project is divided into two folders:
 
 - **Hardware**: This folder contains all hardware peripheral code
 
