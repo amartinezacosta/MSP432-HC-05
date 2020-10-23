@@ -21,7 +21,7 @@ volatile uint32_t UARTA2WriteIndex;
 #define UARTA2_BUFFER_FULL                 (UARTA2WriteIndex + 1) % UARTA2_BUFFERSIZE == UARTA2ReadIndex ? true : false
 #define UARTA2_AVAILABLE                   UARTA2WriteIndex - UARTA2ReadIndex
 
-void UART_Init(uint32_t UART, eUSCI_UART_Config UARTConfig)
+void UART_Init(uint32_t UART, eUSCI_UART_ConfigV1 UARTConfig)
 {
     switch(UART)
     {

@@ -12,7 +12,7 @@ char Buffer[BUFFER_SIZE];
  * at:
  * http://software-dl.ti.com/msp430/msp430_public_sw/mcu/msp430/MSP430BaudRateConverter/index.html
  */
-eUSCI_UART_Config UART0Config =
+eUSCI_UART_ConfigV1 UART0Config =
 {
      EUSCI_A_UART_CLOCKSOURCE_SMCLK,
      13,
@@ -31,7 +31,7 @@ eUSCI_UART_Config UART0Config =
  * at:
  * http://software-dl.ti.com/msp430/msp430_public_sw/mcu/msp430/MSP430BaudRateConverter/index.html
  */
-eUSCI_UART_Config UART2Config =
+eUSCI_UART_ConfigV1 UART2Config =
 {
      EUSCI_A_UART_CLOCKSOURCE_SMCLK,
      156,
